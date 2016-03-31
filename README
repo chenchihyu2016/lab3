@@ -1,0 +1,31 @@
+How to compile?
+	please type make, for I have written a makefile already.
+How to run?
+	please type ./lab3
+The result of Question B?
+	The following is the result. Of course, I append some extra code.
+
+	chenchihyu@chenchihyu-VirtualBox:~/test$ ./tester
+	Current Test Size : 1000
+		sort(): 0.000182 seconds
+ 		v1/v2 are different.
+ 		insertion_sort(): 0.009031 seconds
+ 		v1/v2 are the same.
+	Current Test Size : 10000
+ 		sort(): 0.002265 seconds
+ 		v1/v2 are different.
+ 		insertion_sort(): 1.06866 seconds
+ 		v1/v2 are the same.
+	Current Test Size : 100000
+ 		sort(): 0.048653 seconds
+ 		v1/v2 are different.
+ 		insertion_sort(): 97.7369 seconds
+ 		v1/v2 are the same.
+	Current Test Size : 1000000
+ 		sort(): 0.380051 seconds
+ 		v1/v2 are different.
+ 		insertion_sort(): 9939.23 seconds
+ 		v1/v2 are the same.
+
+	The difference between the compleity of O(nlogn) and O(n^2) is obvious.
+	The larger the size is, the more time will insertion sort( O(n^2) ) take.	
